@@ -80,7 +80,7 @@ app.use((error, req, res, next) =>
 });
 
 
-mongoose.connect('mongodb+srv://ibrazamil:ibrazamil@cluster0.ixzvkhf.mongodb.net/Hope?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('youer mongodb url')
     .then(() =>
     {
         app.listen(8080, () =>
